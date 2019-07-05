@@ -55,7 +55,7 @@ RUN wget https://getcomposer.org/composer.phar -P /tmp
 RUN mv /tmp/composer.phar /usr/local/bin/composer
 RUN chmod +x /usr/local/bin/composer
 
-#Set Timezone
+#Set default Timezone to UTC
 RUN ln -snf /usr/share/zoneinfo/UTC /etc/localtime
 
 RUN service php7.0-fpm start
