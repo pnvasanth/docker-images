@@ -1,6 +1,6 @@
 # Golang AND ZMQ
-Docker image for Go with ZMQ.
+Docker ubuntu 22.04 image with Go and ZMQ.
 
-* [Golang](https://golang.org)
-* [ZMQ 4.1.4](http://zeromq.org)
+* [Go 1.19.3](https://golang.org)
+* [ZMQ 4.1.8](http://zeromq.org)
 
